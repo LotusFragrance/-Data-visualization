@@ -1,24 +1,32 @@
 <template>
   <!-- 基本布局 -->
   <div class="viewport">
+    <!-- 左侧区域 -->
     <div class="column">
-      <div class="pannel">
-        <div class="inner">11
-          11
-          11
-          <br>
-        </div>
-      </div>
+      <!-- 概览区域(overview) -->
+      <overview />
     </div>
+    <!-- 左侧区域 -->
+
+    <!-- 中间区域 -->
     <div class="column">
       <div class="middle">2</div>
     </div>
+    <!-- 中间区域 -->
+
+    <!-- 右侧区域 -->
     <div class="column">3</div>
+    <!-- 右侧区域 -->
   </div>
 </template>
 
 <script>
-export default {}
+import overview from '@/views/overview.vue'
+export default {
+  components: {
+    overview
+  }
+}
 </script>
 
 <style lang="less" scoped>
@@ -28,14 +36,9 @@ export default {}
   background: url(@/assets/images/logo.png) no-repeat 0 0 / contain;
   .column {
     flex: 3;
-    color: #fff;
     &:nth-child(2) {
       flex: 4;
       padding: 30px 15px 0;
-      background-color: transparent;
-      .middle {
-        color: #fff;
-      }
     }
   }
 }
