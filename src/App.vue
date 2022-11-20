@@ -7,6 +7,8 @@
       <overview />
       <!-- 监控区域 -->
       <monitor />
+      <!-- 点位区域point -->
+      <point />
     </div>
     <!-- 左侧区域 -->
 
@@ -25,10 +27,12 @@
 <script>
 import overview from '@/views/overview.vue'
 import monitor from '@/views/monitor.vue'
+import point from '@/views/point.vue'
 export default {
   components: {
     overview,
-    monitor
+    monitor,
+    point
   }
 }
 </script>

@@ -23,8 +23,21 @@ body {
 .pannel {
   position: relative;
   border: 15px solid transparent;
-  border-width: 15px;
+  border-width: 51px 38px 20px 132px;
   border-image-source: url(../assets/images/border.png);
   border-image-slice: 51 38 20 132;
   margin-bottom: 18px;
+}
+.inner {
+  position: absolute;
+  top: -51px;
+  left: -132px;
+  right: -38px;
+  bottom: -20px;
+  padding: 22px 34px;
+}
+.pannel h3 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 400;
 }

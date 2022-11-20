@@ -121,6 +121,7 @@ export default {
           }
           &:nth-child(3) {
             flex: 1;
+            margin-left: 15px;
           }
         }
       }
@@ -160,6 +161,7 @@ export default {
             }
             &:nth-child(3) {
               flex: 1;
+              margin-left: 15px;
             }
             &:nth-child(4) {
               position: absolute;
