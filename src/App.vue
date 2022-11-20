@@ -5,6 +5,8 @@
     <div class="column">
       <!-- 概览区域(overview) -->
       <overview />
+      <!-- 监控区域 -->
+      <monitor />
     </div>
     <!-- 左侧区域 -->
 
@@ -22,9 +24,11 @@
 
 <script>
 import overview from '@/views/overview.vue'
+import monitor from '@/views/monitor.vue'
 export default {
   components: {
-    overview
+    overview,
+    monitor
   }
 }
 </script>
