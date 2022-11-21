@@ -14,7 +14,8 @@
 
     <!-- 中间区域 -->
     <div class="column">
-      <div class="middle">2</div>
+      <!-- 地图区域 -->
+      <mapChart />
     </div>
     <!-- 中间区域 -->
 
@@ -28,11 +29,13 @@
 import overview from '@/views/overview.vue'
 import monitor from '@/views/monitor.vue'
 import point from '@/views/point.vue'
+import mapChart from '@/views/map.vue'
 export default {
   components: {
     overview,
     monitor,
-    point
+    point,
+    mapChart
   }
 }
 </script>
