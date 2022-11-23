@@ -22,7 +22,10 @@
     <!-- 中间区域 -->
 
     <!-- 右侧区域 -->
-    <div class="column">3</div>
+    <div class="column">
+      <!-- 订单区域 -->
+      <order />
+    </div>
     <!-- 右侧区域 -->
   </div>
 </template>
@@ -33,13 +36,15 @@ import monitor from '@/views/monitor.vue'
 import point from '@/views/point.vue'
 import mapChart from '@/views/map.vue'
 import users from '@/views/users.vue'
+import order from '@/views/order.vue'
 export default {
   components: {
     overview,
     monitor,
     point,
     mapChart,
-    users
+    users,
+    order
   }
 }
 </script>
