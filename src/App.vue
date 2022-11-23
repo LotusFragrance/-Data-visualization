@@ -29,6 +29,8 @@
       <sales />
       <!-- 使用场景 -->
       <scene />
+      <!-- 设备热销 -->
+      <hot />
     </div>
     <!-- 右侧区域 -->
   </div>
@@ -43,6 +45,7 @@ import users from '@/views/users.vue'
 import order from '@/views/order.vue'
 import sales from '@/views/sales.vue'
 import scene from '@/views/scene.vue'
+import hot from '@/views/hot.vue'
 export default {
   components: {
     overview,
@@ -52,7 +55,8 @@ export default {
     users,
     order,
     sales,
-    scene
+    scene,
+    hot
   }
 }
 </script>
