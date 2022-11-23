@@ -27,6 +27,8 @@
       <order />
       <!-- 销售统计 -->
       <sales />
+      <!-- 使用场景 -->
+      <scene />
     </div>
     <!-- 右侧区域 -->
   </div>
@@ -40,6 +42,7 @@ import mapChart from '@/views/map.vue'
 import users from '@/views/users.vue'
 import order from '@/views/order.vue'
 import sales from '@/views/sales.vue'
+import scene from '@/views/scene.vue'
 export default {
   components: {
     overview,
@@ -48,7 +51,8 @@ export default {
     mapChart,
     users,
     order,
-    sales
+    sales,
+    scene
   }
 }
 </script>
