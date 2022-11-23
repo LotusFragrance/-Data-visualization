@@ -25,6 +25,8 @@
     <div class="column">
       <!-- 订单区域 -->
       <order />
+      <!-- 销售统计 -->
+      <sales />
     </div>
     <!-- 右侧区域 -->
   </div>
@@ -37,6 +39,7 @@ import point from '@/views/point.vue'
 import mapChart from '@/views/map.vue'
 import users from '@/views/users.vue'
 import order from '@/views/order.vue'
+import sales from '@/views/sales.vue'
 export default {
   components: {
     overview,
@@ -44,7 +47,8 @@ export default {
     point,
     mapChart,
     users,
-    order
+    order,
+    sales
   }
 }
 </script>
